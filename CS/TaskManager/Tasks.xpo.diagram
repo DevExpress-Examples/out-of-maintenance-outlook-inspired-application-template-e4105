@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<visualDesignerDiagram dslVersion="1.0.0.0" Id="c3067618-4ea0-45d3-ad0f-04e0b523a20b" absoluteBounds="0, 0, 11, 8.5" name="Tasks">
+  <dataBaseObjectModelMoniker Id="9d601eab-8852-45d9-97d5-df27f519dd70" />
+  <nestedChildShapes>
+    <xpObjectShape Id="dfd53580-bc97-4c09-bb71-7081553e016b" absoluteBounds="4.25, 1.375, 1.5, 3.418697916666666">
+      <xpObjectMoniker Id="00ce57e1-8ae8-46e4-a9c8-587ba27c888c" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb77422b-2ff8-45be-bfb4-e9ae098dd533" absoluteBounds="4.2650000000000006, 1.685, 1.4700000000000002, 2.7493082682291665" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="5383264b-19d5-4b16-b4d4-9b53f6eabc70" absoluteBounds="4.2650000000000006, 4.4443082682291664, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </xpObjectShape>
+    <xpObjectShape Id="6292ae33-2eeb-4743-b20e-ab1e48372fb5" absoluteBounds="1.375, 1.375, 1.5, 3.6109993489583321">
+      <xpObjectMoniker Id="8d8e576b-6a01-4743-a101-7dc78343dcfe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38f37b26-110f-446c-a2eb-3a2e8a30c183" absoluteBounds="1.3900000000000001, 1.6850000000000005, 1.4700000000000002, 2.941609700520833" name="Fields" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="e64f0a8e-ed02-41c0-b662-e678d1a47dba" absoluteBounds="1.3900000000000001, 4.6366097005208324, 1.4700000000000002, 0.2493896484375" name="Indexes" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </xpObjectShape>
+    <simpleAssociationConnector Id="a0d836df-94e9-4770-af3a-5178c3a8ece1" edgePoints="[(2.875 : 3.08434895833333); (4.25 : 3.08434895833333)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <simpleAssociationMoniker Id="b8c7e821-c22d-4ac5-952f-551968577719" />
+      <relativeChildShapes />
+      <nodes>
+        <xpObjectShapeMoniker Id="6292ae33-2eeb-4743-b20e-ab1e48372fb5" />
+        <xpObjectShapeMoniker Id="dfd53580-bc97-4c09-bb71-7081553e016b" />
+      </nodes>
+    </simpleAssociationConnector>
+  </nestedChildShapes>
+</visualDesignerDiagram>
