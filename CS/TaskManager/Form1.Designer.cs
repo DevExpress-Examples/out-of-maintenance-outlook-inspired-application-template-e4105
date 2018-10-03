@@ -122,7 +122,7 @@
             this.helpRibbonPage = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.helpRibbonPageGroup = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
-            this.schedulerStorage = new DevExpress.XtraScheduler.SchedulerStorage();
+            this.schedulerStorage = new DevExpress.XtraScheduler.SchedulerDataStorage();
             this.xpTasks = new DevExpress.Xpo.XPCollection();
             this.xpPersons = new DevExpress.Xpo.XPCollection();
             this.dateNavigator = new DevExpress.XtraScheduler.DateNavigator();
@@ -291,7 +291,7 @@
             this.schedulerControl.Name = "schedulerControl";
             this.schedulerControl.Size = new System.Drawing.Size(723, 513);
             this.schedulerControl.Start = new System.DateTime(2012, 6, 18, 0, 0, 0, 0);
-            this.schedulerControl.Storage = this.schedulerStorage;
+            this.schedulerControl.DataStorage = this.schedulerStorage;
             this.schedulerControl.TabIndex = 0;
             this.schedulerControl.Text = "schedulerControl1";
             timeRuler1.TimeZoneId = "Pacific Standard Time";
@@ -949,6 +949,7 @@
             this.dateNavigator.HotDate = null;
             this.dateNavigator.Location = new System.Drawing.Point(0, 0);
             this.dateNavigator.Name = "dateNavigator";
+            this.dateNavigator.CellPadding = new System.Windows.Forms.Padding(2);
             this.dateNavigator.SchedulerControl = this.schedulerControl;
             this.dateNavigator.Size = new System.Drawing.Size(190, 513);
             this.dateNavigator.TabIndex = 1;
@@ -1075,7 +1076,7 @@
         private DevExpress.XtraEditors.SplitContainerControl schedulerSplitContainerControl;
         private DevExpress.XtraScheduler.SchedulerControl schedulerControl;
         private DevExpress.XtraScheduler.DateNavigator dateNavigator;
-        private DevExpress.XtraScheduler.SchedulerStorage schedulerStorage;
+        private DevExpress.XtraScheduler.SchedulerDataStorage schedulerStorage;
         private DevExpress.XtraScheduler.UI.EditAppointmentQueryItem editAppointmentQueryItem1;
         private DevExpress.XtraScheduler.UI.EditOccurrenceUICommandItem editOccurrenceUICommandItem1;
         private DevExpress.XtraScheduler.UI.EditSeriesUICommandItem editSeriesUICommandItem1;
