@@ -117,7 +117,7 @@
             Me.helpRibbonPage = New DevExpress.XtraBars.Ribbon.RibbonPage()
             Me.helpRibbonPageGroup = New DevExpress.XtraBars.Ribbon.RibbonPageGroup()
             Me.ribbonStatusBar = New DevExpress.XtraBars.Ribbon.RibbonStatusBar()
-            Me.schedulerStorage = New DevExpress.XtraScheduler.SchedulerStorage()
+            Me.schedulerStorage = New DevExpress.XtraScheduler.SchedulerDataStorage()
             Me.xpTasks = New DevExpress.Xpo.XPCollection()
             Me.xpPersons = New DevExpress.Xpo.XPCollection()
             Me.dateNavigator = New DevExpress.XtraScheduler.DateNavigator()
@@ -280,7 +280,7 @@
             Me.schedulerControl.Name = "schedulerControl"
             Me.schedulerControl.Size = New System.Drawing.Size(723, 513)
             Me.schedulerControl.Start = New Date(2012, 6, 18, 0, 0, 0, 0)
-            Me.schedulerControl.Storage = Me.schedulerStorage
+            Me.schedulerControl.DataStorage = Me.schedulerStorage
             Me.schedulerControl.TabIndex = 0
             Me.schedulerControl.Text = "schedulerControl1"
             timeRuler1.TimeZoneId = "Pacific Standard Time"
@@ -861,6 +861,7 @@
             Me.dateNavigator.HotDate = Nothing
             Me.dateNavigator.Location = New System.Drawing.Point(0, 0)
             Me.dateNavigator.Name = "dateNavigator"
+            Me.dateNavigator.CellPadding = New System.Windows.Forms.Padding(2)
             Me.dateNavigator.SchedulerControl = Me.schedulerControl
             Me.dateNavigator.Size = New System.Drawing.Size(190, 513)
             Me.dateNavigator.TabIndex = 1
@@ -987,7 +988,7 @@
         Private schedulerSplitContainerControl As DevExpress.XtraEditors.SplitContainerControl
         Private schedulerControl As DevExpress.XtraScheduler.SchedulerControl
         Private dateNavigator As DevExpress.XtraScheduler.DateNavigator
-        Private schedulerStorage As DevExpress.XtraScheduler.SchedulerStorage
+        Private schedulerStorage As DevExpress.XtraScheduler.SchedulerDataStorage
         Private editAppointmentQueryItem1 As DevExpress.XtraScheduler.UI.EditAppointmentQueryItem
         Private editOccurrenceUICommandItem1 As DevExpress.XtraScheduler.UI.EditOccurrenceUICommandItem
         Private editSeriesUICommandItem1 As DevExpress.XtraScheduler.UI.EditSeriesUICommandItem
